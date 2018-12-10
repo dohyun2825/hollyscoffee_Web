@@ -1,0 +1,479 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cf:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 전체 */
+#wrap{
+    width: 100%;
+}
+
+
+/* 헤더 */
+#header{
+    
+}
+
+.headerIn{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.headerIn h1{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.headerIn h1 a{
+    
+}
+
+
+/* 유틸 */
+.rightUtill{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.rightUtill li{
+    float: left;
+}
+
+.rightUtill li:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 8px;
+    margin: 0 5px;
+    background: #666;
+}
+
+.rightUtill li a{
+    vertical-align: middle;
+}
+
+.rightUtill li:last-child:after{
+    display: none;
+}
+
+/* left */
+.leftUtill{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.leftUtill li{
+    padding: 10px;
+    margin: 0 auto;
+    content: " ";
+    float: left;
+}
+
+.leftUtill li a{
+    
+}
+
+.leftUtill li:last-child a{
+    padding: 15px 15px;
+}
+
+.leftUtill li a{
+    display: block;
+}
+
+/* right */
+.rightUtill{
+    float: right;
+}
+
+.rightUtill li{
+    padding: 10px;
+    margin: 0 auto;
+    content: " ";
+    float: left;
+}
+
+.rightUtill li a{
+    
+}
+
+/* gnb */
+
+.gnb{
+    text-align: center;
+    padding: 20px 0;
+    width: 960px;
+    margin: 0 auto;
+}
+.gnb ul{
+    float: left;
+    width: 16%;
+}
+
+.lnb{
+    background: #4e4b4a;
+    width: 100%;
+    height: 240px;
+    display: none;
+}
+
+.lnbWrap{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.lnbInfo{
+    float: left;
+    font-size: 14px;
+    width: 16%;
+}
+
+.lnbInfo li{
+    margin-top: 7px;
+    text-align: center;
+}
+
+.lnbInfo li a{
+    color: #797979;
+}
+
+.gnb ul li:hover .lnb{
+    display: block;
+}
+
+
+
+
+
+
+/* 컨테이너 */
+.container{
+    width: 100%;
+}
+
+
+/* 메인슬라이더 */
+.mainSlider{
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+}
+
+.mainSlider img{
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+
+/* 배너 */
+
+.bannerWrap{
+    
+}
+
+.topBanner{
+    width: 960px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 30px;
+}
+
+.topBanner div{
+    float: left;
+}
+
+/* left */
+.leftBanner{
+    width: 205px;
+    height: 220px;
+    padding-right: 35px;
+}
+
+.leftBanner img{
+    
+}
+
+/* middle */
+.middleBanner{
+    width: 460px;
+    height: 220px;
+    padding-right: 35px;
+}
+
+.middleBanner a{
+    color: #888;
+}
+
+.middleBannerImg{
+    padding-top: 40px;
+}
+
+.middleBannerImg div{
+    padding-right: 33px;
+    margin-left: 30px;
+}
+
+.middleImg1 a{
+    display: block;
+    text-align: center;
+}
+
+.middleImg2 a{
+    display: block;
+    text-align: center;
+}
+
+.middleImg3 a{
+    display: block;
+    text-align: center;
+}
+
+
+/* right */
+.rightBanner{
+    width: 205px;
+    height: 220px;
+    padding-right: 0px;
+}
+
+.rightBanner img{
+    
+}
+
+/* bottomBanner */
+
+.bottomBanner{
+    font-size: 0;
+}
+
+/* mainRow3 */
+.mainRow3{
+    width: 960px;
+    margin: 50px auto;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.mainRow3 a{
+    color: #666;
+}
+
+.academy, .recruit, .news, .service{
+    width: 205px;
+    margin-right: 35px;
+    float: left;
+}
+
+.academy{
+    
+}
+
+.academy h3{
+    
+}
+
+.academy p, .recruit p{
+    margin:15px 0;
+}
+
+.academy a{
+    
+}
+
+.academy a img, .recruit a img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.news{
+    
+}
+
+.news h3{
+    
+}
+
+.news h3 a{
+    
+}
+
+.news ul{
+    
+}
+
+.news ul li{
+    
+}
+
+.news ul li span{
+    
+}
+
+.news ul li a{
+    width: 150px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 20 px;
+}
+
+.service{
+    margin-right: 0;
+}
+
+.service a{
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+}
+
+.service a img{
+    display: block;
+    margin: 0 auto;
+}
+
+.mainBar{
+    width: 960px;
+    height: 2px;
+    background: #BF141D;
+    margin: 30px auto;
+}
+
+/* mainRow4 */
+
+.mainRow4{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.hollysLive{
+    float: left;
+    vertical-align: middle;
+}
+
+.hollysLive h2{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hollysLive h2 img{
+    display: block;
+}
+
+.hollysLive ul{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hollysLive ul li{
+    float: left;
+    margin: 0 3px;
+}
+
+.hollysLive ul li a{
+    
+}
+
+.snsBroad{
+    width: 960px;
+    margin: 0 auto;
+    font-size: 12px;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.snsBroad div{
+    
+}
+
+.snsList{
+    width: 140px;
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+    background: url("../images/48_48.png") no-repeat;
+    background-position: left center;
+    padding-left: 50px;
+}
+
+.snsList a{
+    color: black;
+}
+
+.snsList last{
+    
+}
+
+
+/* 푸터 */
+
+#footer{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#footer img{
+    width: 100%;
+    height: 149px;
+}
+
+.footerIn{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.footerUtill{
+    position: absolute;
+    top: 25px;
+}
+
+.footerUtill li{
+    float: left;
+    color: white;
+    font-size: 14px;
+}
+
+.footerUtill li a{
+    color: white;
+}
+
+.footerUtill li:after{
+    content: "ㅣ";
+    font-size: 1px;
+    display: inline-block;
+}
+
+.footerUtill li:last-child:after{
+    display: none;
+}
+
+.footerInfo{
+    font-size: 12px;
+    position: absolute;
+    top: 65px;
+    color: #f99;
+}
